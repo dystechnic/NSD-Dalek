@@ -86,5 +86,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Hat tip to anyone whose code was used
-* Inspiration
+* The guys at the [Dalek Forum](https://www.projectdalek.com/)
 * etc
