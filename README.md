@@ -3,7 +3,7 @@
 One of the most intriguing (for me at least) characters of the BBC series 'Doctor Who' is the Dalek. 
 Their first appearence in the series wasin the 1963 Doctor Who episode 'The Daleks', (also known as 'The Mutants and The Dead Planet'.
 
-Since their first appearance there have been a number of variations of the Daleks. In the sixth episode of the "new series" (started in march 2005) a completely redesigned lone Dalek appeared. //
+Since their first appearance there have been a number of variations of the Daleks. In the sixth episode of the "new series" (started in march 2005) a completely redesigned lone Dalek appeared. <br />
 This design is known as the New Series Dalek and I had to have one.
 
 ## Getting Started
