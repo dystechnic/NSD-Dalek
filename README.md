@@ -5,6 +5,8 @@ Their first appearence in the series wasin the 1963 Doctor Who episode 'The Dale
 Since their first appearance there have been a number of variations of the Daleks. In the sixth episode of the 'new series' (started in march 2005) a completely redesigned lone Dalek appeared. <br />
 This design is known as the New Series Dalek and I had to have one.
 
+![GitHub Logo](/images/Dalek.jpg)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
