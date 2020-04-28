@@ -13,6 +13,10 @@ This design is known as the New Series Dalek and I had to have one.
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+<p align="center">
+  <img width="300" height="400" src="/images/dalek_fritzing.png">
+</p>
+
 ## Acknowledgments
 
 This Dalek would never have been build without the help of all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
