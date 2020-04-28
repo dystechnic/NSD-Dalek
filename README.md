@@ -15,4 +15,4 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Acknowledgments
 
-This Dalek would never have been build without the helpof all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
+This Dalek would never have been build without the help of all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
