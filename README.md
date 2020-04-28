@@ -89,6 +89,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* The guys at the [Dalek Forum](https://www.projectdalek.com/)
-* etc
+This Dalek would never have been build without the helpof all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
