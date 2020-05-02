@@ -49,17 +49,23 @@ The Dalek is automated using 4 different types of Arduinos, 3 Ultrasonic sensors
 Sound is produced by a MP3 module.<br/>
 The complete schematics:
 <p align="center">
-  <img width="800" height="300" src="/images/dalek_fritzing.png">
+  <img width="800" height="400" src="/images/dalek_fritzing.png">
 </p>
+
 ### Ultrasonic sensors
 I use three Maxbotix EZ1 ultra-sonic sensors for obstacle avoidance. The sensors are daisychained and triggered by a common triggerPin. <br />
 I am using two pins for each of these. The triggerPin is wired to RX. The second pin is wired to PWM for input.
 The variables LEFT_SONIC, FRONT_SONIC and RIGHT_SONIC in the main code contain the Arduino pwm numbers.<br />
 The sensors are connected to an Arduino Mega and are polled coninuesly. The result of the polling is put on the I2C bus so the other Arduinis on the bus can react to the results.
 ### Movement
-For movement I am using two NEMA17 steppermotors. These are controlled by two Big Easy drivers.
+For movement I am using two NEMA17 steppermotors. These are controlled by two Big Easy driversconnected to an Arduino nano.<br />
+The nano listens to the I2C bus and reacts to messages the mega sends to it and steers the Dalek accordingly. This results in the Dalek steering its way around objects end backing out of blockages.<br/>
+The Dalek starts in what I call **Display Mode**. This means it is fully operational except for movement. In this mode you can put it in your living room wher it stays where you put it but it still detects if someone or something is getting close and reacts to that.<br />
+This Display Mode mode can be disabled through the webinterface.
+### Lights and sound
+Blah!!
 
-
+### Web interface
 <p align="center">
   <img width="200" height="300" src="/images/dalek_webgui.png">
 </p>
