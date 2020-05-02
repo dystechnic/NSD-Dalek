@@ -19,7 +19,7 @@ There are three main reasons for this complexity:
 2. I happened to have a box with a number of different Arduinos laying arround.
 3. I wanted to get some experience with I2C communication between microcontrollers.
 
-## The Dalek 
+## The Dalek body
 
 The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
 I started with the skirt. I made the pannels from plywood and glued them together.
@@ -32,13 +32,14 @@ After a trip to the "Action" to get some pingpong balls and some paint at the ha
 </p>
 
 In the sametime I was building the skirt I was finishing the build of a new 3D printer with a build volume of40x40x40 cm. 
-So I decided to print the rest of the Dalek.
+So I decided to print the rest of the Dalek.<br />
 One of the Prohject Dalek forum moderators, Audry2 created a scale Renegade Dalek kit wich can be downloaded from the forum.
-I found an other more detailed version from the same author on thingiverse [thing 369866](https://www.thingiverse.com/thing:369866). 
-I used this version to print the rest of my Dalek.
-After some test prints I found that if I resized the parts 385% they where at the same scale as the skirt I build. Knowing that I started printing, sanding, painting and glueing it all together. The result is the file at the top of this readme.
+I found an other more detailed version from the same author on thingiverse [thing 369866](https://www.thingiverse.com/thing:369866).<br />
+I used this version to print the rest of my Dalek.<br />
+After some test prints I found that if I resized the parts 385% they where at the same scale as the skirt I build. <br />
+Knowing that I started printing, sanding, painting and glueing it all together. The result is shown at the top of this readme.
 
-
+## The electronics
 <p align="center">
   <img width="800" height="450" src="/images/dalek_fritzing.png">
 </p>
@@ -46,6 +47,10 @@ After some test prints I found that if I resized the parts 385% they where at th
 <p align="center">
   <img width="200" height="300" src="/images/dalek_webgui.png">
 </p>
+
+## The arduino code
+
+
 ## Acknowledgments
 
 This Dalek would never have been build without the help of all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
