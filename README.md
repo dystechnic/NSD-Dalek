@@ -23,16 +23,9 @@ There are three main reasons for this complexity:
 
 The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
 I started with the skirt. I made the pannels from plywood and glued them together.
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](<img width="300" height="400" src="/images/skirt_1.jpg">)  |  ![](<img width="300" height="400" src="/images/skirt_2.jpg">)
-<p align="left">
-  <img width="300" height="400" src="/images/skirt_1.jpg">
-</p>
-<p align="right">
-  <img width="300" height="400" src="/images/skirt_2.jpg">
-</p>
-Building it on a 2/5 scale meens that the hemmies are about the size of a pingpong ball,so after a trip to the action and some paint this is how it ended up looking.
+
+<img src="/images/skirt_1.jpg" width="45%"></img> <img src="/images/skirt_2.jpg" width="45%"></img> <img src=" " width="45%"></img> <img src=" " width="45%"></img>
+
 <p align="center">
   <img width="300" height="400" src="/images/skirt_3.jpg">
 </p>
