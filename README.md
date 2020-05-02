@@ -44,9 +44,21 @@ Knowing that I started printing, sanding, painting and glueing it all together.
 The complete result is the Dalek shown at the top of this readme.
 
 ## The electronics
+The Dalek is automated using 4 different types of Arduinos, 3 Ultrasonic sensors for obstacle detection and avoidance and two NEMA17 stepper motors for movement.<br /> 
+2 bright white LEDs that I took from two **IKEA OLEBY** flashlights actas dome lights and I have put a 8mm ws2811 RGB LED in the eyestalk.<br />
+Sound is produced by a MP3 module.<br/>
+The complete schematics:
 <p align="center">
   <img width="800" height="300" src="/images/dalek_fritzing.png">
 </p>
+### Ultrasonic sensors
+I use three Maxbotix EZ1 ultra-sonic sensors for obstacle avoidance. The sensors are daisychained and triggered by a common triggerPin. <br />
+I am using two pins for each of these. The triggerPin is wired to RX. The second pin is wired to PWM for input.
+The variables LEFT_SONIC, FRONT_SONIC and RIGHT_SONIC in the main code contain the Arduino pwm numbers.<br />
+The sensors are connected to an Arduino Mega and are polled coninuesly. The result of the polling is put on the I2C bus so the other Arduinis on the bus can react to the results.
+### Movement
+For movement I am using two NEMA17 steppermotors. These are controlled by two Big Easy drivers.
+
 
 <p align="center">
   <img width="200" height="300" src="/images/dalek_webgui.png">
