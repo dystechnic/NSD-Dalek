@@ -9,12 +9,37 @@ This design is known as the New Series Dalek and I just had to have one. :wink:
   <img width="300" height="400" src="/images/dalek.png">
 </p>
 
-## Getting Started
+## The build
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Before you start reading and maybe even using my code a small advance warning:<br />
+**This build is overly and unnecessary complex, and I did this on purpose**<br />
+
+There are three main reasons for this complexity:
+1. During pre-build tests I ran into problems with the not-so multithreading behaviour of the good old arduino.
+2. I happened to have a box with a number of different Arduinos laying arround.
+3. I wanted to get some experience with I2C communication between microcontrollers.
+
+## The Dalek 
+
+The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
+I started with the skirt. I made the pannels from plywood and glued them together.
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](<img width="300" height="400" src="/images/skirt_1.jpg">)  |  ![](<img width="300" height="400" src="/images/skirt_2.jpg">)
+<p align="left">
+  <img width="300" height="400" src="/images/skirt_1.jpg">
+</p>
+<p align="right">
+  <img width="300" height="400" src="/images/skirt_2.jpg">
+</p>
+Building it on a 2/5 scale meens that the hemmies are about the size of a pingpong ball,so after a trip to the action and some paint this is how it ended up looking.
+<p align="center">
+  <img width="300" height="400" src="/images/skirt_3.jpg">
+</p>
+
 
 <p align="center">
-  <img width="400" height="300" src="/images/dalek_fritzing.png">
+  <img width="800" height="450" src="/images/dalek_fritzing.png">
 </p>
 
 <p align="center">
