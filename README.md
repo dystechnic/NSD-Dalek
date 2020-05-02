@@ -45,7 +45,7 @@ The complete result is the Dalek shown at the top of this readme.
 
 ## The electronics
 The Dalek is automated using 4 different types of Arduinos, 3 Ultrasonic sensors for obstacle detection and avoidance and two NEMA17 stepper motors for movement.<br /> 
-2 bright white LEDs that I took from two **IKEA OLEBY** flashlights actas dome lights and I have put a 8mm ws2811 RGB LED in the eyestalk.<br />
+2 bright white LEDs that I salvaged from two **IKEA OLEBY** flashlights act as dome lights and I have put a 5mm ws2811 RGB LED in the eyestalk.<br />
 Sound is produced by a MP3 module.<br/>
 The complete schematics:
 <p align="center">
@@ -63,7 +63,8 @@ The nano listens to the I2C bus and reacts to messages the mega sends to it and 
 The Dalek starts in what I call **Display Mode**. This means it is fully operational except for movement. In this mode you can put it in your living room wher it stays where you put it but it still detects if someone or something is getting close and reacts to that.<br />
 This Display Mode mode can be disabled through the webinterface.
 ### Lights and sound
-Blah!!
+Sound is handled by a DFPlayer module wich is an A Mini MP3 Player you can connect to an arduino. In my case it is connected to an arduino pro mini, together with the domelights and the LED in the eyestalk.<br />
+The DFPlayer holds a SD card where the soundfiles are stored. Depending on the I2C message it receives from the mega and the mode the Dalek is in it plays a soundfile.
 
 ### Web interface
 <p align="center">
