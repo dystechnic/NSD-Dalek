@@ -37,11 +37,15 @@ One of the Prohject Dalek forum moderators, Audry2 created a scale Renegade Dale
 I found an other more detailed version from the same author on thingiverse [thing 369866](https://www.thingiverse.com/thing:369866).<br />
 I used this version to print the rest of my Dalek.<br />
 After some test prints I found that if I resized the parts 385% they where at the same scale as the skirt I build. <br />
-Knowing that I started printing, sanding, painting and glueing it all together. The result is shown at the top of this readme.
+Knowing that I started printing, sanding, painting and glueing it all together. 
+<p align="center">
+  <img width="300" height="250" src="/images/shoulders.jpg">
+</p>
+The complete result is the Dalek shown at the top of this readme.
 
 ## The electronics
 <p align="center">
-  <img width="800" height="450" src="/images/dalek_fritzing.png">
+  <img width="800" height="300" src="/images/dalek_fritzing.png">
 </p>
 
 <p align="center">
