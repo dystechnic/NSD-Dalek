@@ -17,6 +17,9 @@ These instructions will get you a copy of the project up and running on your loc
   <img width="400" height="300" src="/images/dalek_fritzing.png">
 </p>
 
+<p align="center">
+  <img width="200" height="300" src="/images/dalek_webgui.png">
+</p>
 ## Acknowledgments
 
 This Dalek would never have been build without the help of all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
