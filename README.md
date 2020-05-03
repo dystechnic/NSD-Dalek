@@ -63,15 +63,18 @@ An ESP-01 is functioning as webinterface.
   <img width="200" height="300" src="/images/dalek_webgui.png">
 </p>
 Through this webinterface you can disable or enable:
-1. Display mode
-2. Motors
-3. Sound
 
+1. Display mode<br />
 This mode is enabled by default. It disables mivement but leaves all other functions operational. The Dalek wil still sense objects in it's surroundings and will react to it with sound, domelights and the eyestalkwill change colour. 
-  
+2. Motors<br />
+This wil enable movement. **BUT** it can only be enabled after first disabling Display mode.This is a safety measure to prevent the accidental enabling of movement while the Dalek is put on a table for display purposes and runs of the table. You have to do two thing to enable motion.
+3. Sound
+Sound is enabled by default. If you get tired of the Dalek moaning out of boardom every once in a while you can silence it.The eye stalk will stil work and change color if something or someone gets too close.
 ### Lights and sound
 Sound is handled by a DFPlayer module wich is an A Mini MP3 Player you can connect to an arduino. In my case it is connected to an arduino pro mini, together with the domelights and the LED in the eyestalk.<br />
-The DFPlayer holds a SD card where the soundfiles are stored. Depending on the I2C message it receives from the mega or the ESP to set the mode the Dalek is in it wil or wil not play soundfiles.
+The DFPlayer holds a SD card where the soundfiles are stored. Depending on the I2C message it receives from the mega or the ESP to set the mode the Dalek is in it wil or wil not play soundfiles.<br />
+During startup the eyestalk flashes some colours to indicate it is not ready to go yet. If it's ready it makes a moaning sound an light up blue and pulsating. If there is something whitin the 'personal space' of the Dalek the Eyeystalk wil change color. White when something enters the outer limits and red when the inner limit is triggered. At the same time it will scream Stay away or Exterminate.<br />
+The domelights pulsate while sound is played by the sound module.This is dome by putting a TIP120 MOSFET on one of the audio outputs. This makes the domelights flash in sync with any soundfile played. 
 ## The arduino code
 
 
