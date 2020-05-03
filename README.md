@@ -24,7 +24,7 @@ There are three main reasons for this complexity:
 The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
 I started with the skirt. I made the pannels from plywood and glued them together.
 
-<img src="/images/skirt_1.jpg" width="45%"></img> <img src="/images/skirt_2.jpg" width="45%"></img> 
+<img src="/images/skirt_1.jpg" width="30%"></img> <img src="/images/skirt_2.jpg" width="30%"></img> <img src="/images/skirt_3.jpg" width="30%"></img>  
 
 After a trip to the "Action" to get some pingpong balls and some paint at the hardware the skirt looks like this:
 <p align="center">
