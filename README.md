@@ -28,7 +28,7 @@ I started with the skirt. I made the pannels from plywood and glued them togethe
 
 In the sametime I was building the skirt I was finishing the build of a new 3D printer with a build volume of40x40x40 cm. 
 So I decided to print the rest of the Dalek.<br />
-One of the Prohject Dalek forum moderators, Audry2 created a scale Renegade Dalek kit wich can be downloaded from the forum.
+One of the Project Dalek forum moderators, Audry2, created a scale Renegade Dalek kit wich can be downloaded from the forum.
 I found an other more detailed version from the same author on thingiverse [thing 369866](https://www.thingiverse.com/thing:369866).<br />
 I used this version to print the rest of my Dalek.<br />
 After some test prints I found that if I resized the parts 385% they where at the same scale as the skirt I build. <br />
