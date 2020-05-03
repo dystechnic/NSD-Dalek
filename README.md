@@ -22,14 +22,9 @@ There are three main reasons for this complexity:
 ## The Dalek body
 
 The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
-I started with the skirt. I made the pannels from plywood and glued them together.
+I started with the skirt. I made the pannels from plywood and glued them together. And after a trip to the "Action" to get some pingpong balls and some paint at the hardware store the skirt looks like this:
 
 <img src="/images/skirt_1.jpg" width="30%"></img> <img src="/images/skirt_2.jpg" width="30%"></img> <img src="/images/skirt_3.jpg" width="30%"></img>  
-
-After a trip to the "Action" to get some pingpong balls and some paint at the hardware the skirt looks like this:
-<p align="center">
-  <img width="300" height="400" src="/images/skirt_3.jpg">
-</p>
 
 In the sametime I was building the skirt I was finishing the build of a new 3D printer with a build volume of40x40x40 cm. 
 So I decided to print the rest of the Dalek.<br />
