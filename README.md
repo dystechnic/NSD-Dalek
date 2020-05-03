@@ -21,14 +21,13 @@ There are three main reasons for this complexity:
 
 ## The Dalek body
 
-The Actual Dalek is build from plan I purchased on the project dalek forum. These are realy detailed and made building anlot easier for me.
-I started with the skirt. I made the pannels from plywood and glued them together. And after a trip to the "Action" to get some pingpong balls and some paint at the hardware store the skirt looks like this:
+The Actual Dalek is build from plans I purchased on the project dalek forum. These are realy detailed and made building a lot easier for me. I decided to go for a 2/5 scale Dalek. So every inch on the plan (The plans are for a life size Dalek and are in inches) translates to 1cm. The advantage of this scale is that the hemmies on the skirt are roughly the size of pingpong balls.<br /><br />
+I started with the skirt. I made the panels from plywood and glued them together. And after a trip to the "Action" to get some pingpong balls and some paint at the hardware store the skirt looked like this:
 
 <img src="/images/skirt_1.jpg" width="30%"></img> <img src="/images/skirt_2.jpg" width="30%"></img> <img src="/images/skirt_3.jpg" width="30%"></img>  
 
-In the sametime I was building the skirt I was finishing the build of a new 3D printer with a build volume of40x40x40 cm. 
-So I decided to print the rest of the Dalek.<br />
-One of the Project Dalek forum moderators, Audry2, created a scale Renegade Dalek kit wich can be downloaded from the forum.
+While I was building the skirt I was also finishing the build of a new 3D printer with a build volume of 40x40x40 cm. Big enough to print parts of the Dalek. So I decided to print the rest of the Dalek.<br />
+One of the Project Dalek forum moderators, Audry2, created a scale Renegade Dalek kit which can be downloaded from the forum.
 I found an other version from the same author on thingiverse [thing 369866](https://www.thingiverse.com/thing:369866).<br />
 I used this version to print the rest of my Dalek.<br />
 After some test prints I found that if I resized the parts 385% they where at the same scale as the skirt I build before. <br />
@@ -51,11 +50,11 @@ The complete schematics:
 I use three Maxbotix EZ1 ultra-sonic sensors for obstacle avoidance. The sensors are daisychained and triggered by a common triggerPin. <br />
 I am using two pins for each of these. The triggerPin is wired to RX. The second pin is wired to PWM for input.
 The variables LEFT_SONIC, FRONT_SONIC and RIGHT_SONIC in the main code contain the Arduino pwm numbers.<br />
-The sensors are connected to an Arduino Mega and are polled coninuesly. The result of the polling is put on the I2C bus so the other Arduinis on the bus can react to the results.
+The sensors are connected to an Arduino Mega and are polled continuously. The result of the polling is put on the I2C bus so the other Arduinos on the bus can react to the results.
 ### Movement
-For movement I am using two NEMA17 steppermotors. These are controlled by two Big Easy driversconnected to an Arduino nano.<br />
-The nano listens to the I2C bus and reacts to messages the mega sends to it and steers the Dalek accordingly. This results in the Dalek steering its way around objects end backing out of blockages.<br/>
-The Dalek starts in what I call **Display Mode**. This means it is fully operational except for movement. In this mode you can put it in your living room wher it stays where you put it but it still detects if someone or something is getting close and reacts to that.<br />
+For movement I am using two NEMA17 steppermotors. These are controlled by two Big Easy drivers connected to an Arduino nano.<br />
+The nano listens to the I2C bus and reacts to messages the mega sends to it and steers the Dalek accordingly. This results in the Dalek steering its way around objects and backing out of blockages.<br/>
+The Dalek starts in what I call **Display Mode**. This means it is fully operational except for movement. In this mode you can put it in your living room where it stays where it wil not move but it still detects if someone or something is getting close and reacts to that.<br />
 This Display Mode mode can be disabled through the web interface.
 ### Web interface
 An ESP-01 is functioning as webinterface.
@@ -65,19 +64,39 @@ An ESP-01 is functioning as webinterface.
 Through this webinterface you can disable or enable:
 
 1. Display mode<br />
-This mode is enabled by default. It disables mivement but leaves all other functions operational. The Dalek wil still sense objects in it's surroundings and will react to it with sound, domelights and the eyestalkwill change colour. 
+This mode is enabled by default. It disables movement but leaves all other functions operational. The Dalek wil still sense objects in it's surroundings and will react to it with sound, flashing domelights and the eyestalk will change colour. 
 2. Motors<br />
-This wil enable movement. **BUT** it can only be enabled after first disabling Display mode.This is a safety measure to prevent the accidental enabling of movement while the Dalek is put on a table for display purposes and runs of the table. You have to do two thing to enable motion.
-3. Sound
-Sound is enabled by default. If you get tired of the Dalek moaning out of boardom every once in a while you can silence it.The eye stalk will stil work and change color if something or someone gets too close.
+This wil enable movement. **BUT** it can only be enabled after first disabling Display mode.This is a safety measure to prevent the accidental enabling of movement while the Dalek is put on a table for display purposes and runs of the table. You have to do two things to enable motion.
+3. Sound<br />
+Sound is enabled by default. If you get tired of the Dalek moaning out of boredom every once in a while you can silence it. The eye stalk will stil work and change color if something or someone gets too close.
 ### Lights and sound
 Sound is handled by a DFPlayer module wich is an A Mini MP3 Player you can connect to an arduino. In my case it is connected to an arduino pro mini, together with the domelights and the LED in the eyestalk.<br />
 The DFPlayer holds a SD card where the soundfiles are stored. Depending on the I2C message it receives from the mega or the ESP to set the mode the Dalek is in it wil or wil not play soundfiles.<br />
-During startup the eyestalk flashes some colours to indicate it is not ready to go yet. If it's ready it makes a moaning sound an light up blue and pulsating. If there is something whitin the 'personal space' of the Dalek the Eyeystalk wil change color. White when something enters the outer limits and red when the inner limit is triggered. At the same time it will scream Stay away or Exterminate.<br />
-The domelights pulsate while sound is played by the sound module.This is dome by putting a TIP120 MOSFET on one of the audio outputs. This makes the domelights flash in sync with any soundfile played. 
+During startup the eyestalk flashes some colours to indicate it is not ready to go yet. If it's ready it makes a moaning sound and the eye will light up blue and pulsating. If there is something whitin the 'personal space' of the Dalek the eye will change color. White when something enters the outer limits and red when the inner limit is triggered. At the same time it will scream Stay away or Exterminate.<br />
+The domelights pulsate while sound is played by the sound module. This is done by putting a TIP120 MOSFET on one of the audio outputs. This makes the domelights flash in sync with any soundfile played. 
 ## The arduino code
+*** 
+***DISCLAIMER***<br />
+<br />
+I am not a programmer by profession. You use this code at your own risk.<br />
+If it briks your computer or turns your Dalek into a toaster it is at your own risk. I can not be held responsible for any damage your Dalek or any other device in your home might do after you downloaded this code.
+***
+The code is well documented (at least I think it is) and together with the information in this readme file it wil be fairly self explanatory. So I will not get into the details here. You can get all you need from the code.<br />
+Because I use 4 Arduinos the code itself is also split into 4 parts. 
+
+1. 	dalek_WiFi.ino<br />
+The code for the ESP-01 that will provide the web interface and acts as a master on the I2C bus.
+2.  dalek_dome.ino<br />
+The code for the pro-mini that handles sound, domelights and the eyestalk
+3.  dalek_main.ino<br />
+The code for the mega that handles the ultrasonic sensors and acts as a master on the I2C bus.
+4.	dalek_motors.ino<br />
+The code for the nano that controls the stepperdrivers.
 
 
 ## Acknowledgments
 
 This Dalek would never have been build without the help of all the great guys at the [Dalek Forum](https://www.projectdalek.com/) and the plans and schematics they have produced there.
+
+
+Happy building !!!
