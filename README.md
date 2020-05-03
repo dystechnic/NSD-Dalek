@@ -66,7 +66,7 @@ Through this webinterface you can disable or enable:
 1. Display mode<br />
 This mode is enabled by default. It disables movement but leaves all other functions operational. The Dalek wil still sense objects in it's surroundings and will react to it with sound, flashing domelights and the eyestalk will change colour. 
 2. Motors<br />
-This wil enable movement. **BUT** it can only be enabled after first disabling Display mode.This is a safety measure to prevent the accidental enabling of movement while the Dalek is put on a table for display purposes and runs of the table. You have to do two things to enable motion.
+This wil enable movement. **BUT** it can only be enabled after first disabling Display mode. This is a safety measure to prevent the accidental enabling of movement while the Dalek is put on a table for display purposes and runs of the table. You have to do two things to enable motion.
 3. Sound<br />
 Sound is enabled by default. If you get tired of the Dalek moaning out of boredom every once in a while you can silence it. The eye stalk will stil work and change color if something or someone gets too close.
 ### Lights and sound
