@@ -21,7 +21,7 @@ There are three main reasons for this complexity:
 
 ## The Dalek body
 
-The Actual Dalek is build from plans I purchased on the project dalek forum. These are realy detailed and made building a lot easier for me. I decided to go for a 2/5 scale Dalek. So every inch on the plan (The plans are for a life size Dalek and are in inches) translates to 1cm. The advantage of this scale is that the hemmies on the skirt are roughly the size of pingpong balls.<br /><br />
+The Actual Dalek is build from plans I downloaded the plans (free of charge by the way) from the [Project Dalek Forum](https://www.projectdalek.com/). These are realy detailed and made building a lot easier for me. I decided to go for a 2/5 scale Dalek. So every inch on the plan (The plans are for a life size Dalek and are in inches) translates to 1cm. The advantage of this scale is that the hemmies on the skirt are roughly the size of pingpong balls.<br /><br />
 I started with the skirt. I made the panels from plywood and glued them together. And after a trip to the "Action" to get some pingpong balls and some paint at the hardware store the skirt looked like this:
 
 <img src="/images/skirt_1.jpg" width="30%"></img> <img src="/images/skirt_2.jpg" width="30%"></img> <img src="/images/skirt_3.jpg" width="30%"></img>  
